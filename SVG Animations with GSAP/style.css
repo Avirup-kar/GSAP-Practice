@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* Set up basic typography and background */
+body {
+   height: 100%;
+   width: 100%;
+   background-color: black;
+}
+
+
+
+#string{
+    /* margin: auto; */
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    /* background-color: brown; */
+}

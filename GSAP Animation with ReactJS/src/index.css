@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1{
+  padding: 20px;
+  border-radius: 30px;
+}
+
+main button{
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(167, 105, 190);
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.circle{
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: rgb(95, 216, 95);
+  border-radius: 50%;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  background-color: rgb(95, 216, 95);
+  border-radius: 20px;
+}

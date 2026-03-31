@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* Set up basic typography and background */
+body {
+   height: 100%;
+   width: 100%;
+   overflow-x: hidden;
+}
+
+
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(150, 58, 60, 0.681);
+}
+
+h1{
+    color: #000;
+    font-size: 40vw;
+}
+
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(26, 96, 175, 0.681);
+    display: flex;
+    align-items: center;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
